@@ -1,62 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Testimonios</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    
+
     <main class="testimonios">
-        <header class="encabezado">
-            <span class="subtitulo">Testimonios</span>
-            <h1>Lo que dicen nuestros clientes</h1>
-            <p>conoce las opiniones de las personas que mas confian en nosotros</p>
-        </header>
-        <section class="content-tarjetas">
+
+        <section class="testimonios-arriba">
 
             <article class="tarjeta">
-                <div class="profile">
-                    <img src="img/persona1.png" alt="Cliente satisfecho">
-                    <div class="datos">
-                        <h2>Michael Torres</h2>
-                        <span>Desarrollador web</span>
+                <div class="comentario oscuro">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nemo iste rem quam ipsam
+                        accusantium, laboriosam dolorum expedita, ipsum aliquam quisquam dolor voluptas error omnis
+                        nobis quia ullam? Exercitationem, magni?
+                    </p>
+                    <p>Highly recommended!</p>
+                </div>
+
+                <div class="autor">
+                    <img src="img/persona1.png" alt="Artem Jones">
+                    <div>
+                        <h3>Juanka</h3>
+                        <span>Junior Frontend Developer</span>
                     </div>
                 </div>
-                <div class="estrellas" aria-label="5 de 5 estrellas">★★★★★</div>
-                <p class="opinion">"Excelente servico lo contrataria mil veces si es necesario"</p>
-                <span class="verificado">✓ Cliente satisfecho</span>
             </article>
 
-            <article class="tarjeta destacada">
-                <div class="profile">
-                    <img src="img/persona2.png" alt="Cliente satisfecho">
-                    <div class="datos">
-                        <h2>Laura Gonzales</h2>
-                        <span>Ingeniera en sofware</span>
+            <article class="tarjeta tarjeta-borde">
+                <p class="texto-comentario">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore beatae placeat vitae quibusdam
+                    totam illo tempora eius debitis sint ex deleniti enim sit molestiae, consequatur omnis quis.
+                    Perspiciatis, dolor animi!
+                </p>
+
+                <div class="autor">
+                    <img src="img/persona2.png" alt="Artem Jones">
+                    <div>
+                        <h3>Chela</h3>
+                        <span>Junior Frontend Developer</span>
                     </div>
                 </div>
-                <div class="estrellas" aria-label="5 de 5 estrellas">★★★★★</div>
-                <p class="opinion">"Excelente servico, buena atencion al cliente y 100% recomendado"</p>
-                <span class="verificado">✓ Cliente satisfecho</span>
             </article>
 
-            <article class="tarjeta">
-                <div class="profile">
-                    <img src="img/persona3.png" alt="Cliente satisfecho">
-                    <div class="datos">
-                        <h2>Ruben Smith</h2>
-                        <span>CEO cordyceps</span>
-                    </div>
-                </div>
-                <div class="estrellas" aria-label="5 de 5 estrellas">★★★★★</div>
-                <p class="opinion">"Excelente servico, me han ayudado mucho con el desarrollo de mi empresa"</p>
-                <span class="verificado">✓ Cliente satisfecho</span>
-            </article>
         </section>
+
+        <section class="testimonio-central">
+
+            <img class="foto-grande" src="img/persona3.png"
+                alt="Mujer sonriendo">
+
+            <article class="tarjeta-oscura">
+                <div class="estrellas">★★★★★</div>
+                <h2>Manolito</h2>
+                <p class="trabajo">Engineering Manager</p>
+                <p class="texto-central">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae accusamus minima ut, blanditiis
+                    neque deserunt doloremque voluptate officiis repudiandae quas, ad sapiente id beatae quo rerum
+                    mollitia sint, ipsa eos.
+                </p>
+            </article>
+
+        </section>
+
+        <section class="testimonio-final">
+
+            <p class="texto-final">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto exercitationem eligendi cupiditate, totam
+                ullam, error optio quae, voluptates saepe voluptatem adipisci consequuntur non. Eveniet quibusdam omnis,
+                perferendis voluptatibus praesentium repellendus.
+            </p>
+
+            <div class="navegacion">
+                <button class="flecha" aria-label="Anterior">‹</button>
+
+                <div class="fotos-usuarios">
+                    <img class="foto-transparente" src="img/persona1.png" alt="Usuario anterior">
+
+                    <img class="foto-seleccionada" src="img/persona2.png" alt="Artem Jones">
+
+                    <img class="foto-transparente" src="img/persona3.png" alt="Usuario siguiente">
+                </div>
+
+                <button class="flecha" aria-label="Siguiente">›</button>
+            </div>
+
+            <h3 class="nombre-final">Chela</h3>
+
+        </section>
+
     </main>
 
 </body>
